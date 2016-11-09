@@ -39,7 +39,7 @@
                                 <rect key="frame" x="20" y="132" width="374" height="604"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="157" id="gUP-r2-Osf" customClass="ItemCell" customModule="DreamLister" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="157" id="gUP-r2-Osf" customClass="ItemCell" customModule="DreamLister" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="157"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gUP-r2-Osf" id="nFf-4c-Tk8">
@@ -137,14 +137,14 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="B3Q-rX-PV7">
                             <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
-                                <segue destination="6sv-LN-8Qj" kind="show" identifier="ItemDetaislVCNew" id="DHj-3Z-Tmj"/>
+                                <segue destination="6sv-LN-8Qj" kind="show" identifier="ItemDetailsVCNew" id="DHj-3Z-Tmj"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="segment" destination="jmt-jr-7l8" id="Moa-aI-pC5"/>
                         <outlet property="tableView" destination="lim-50-MBN" id="ZYY-nv-Rbt"/>
-                        <segue destination="6sv-LN-8Qj" kind="show" identifier="ItemDetaislVC" id="KC0-n2-X7a"/>
+                        <segue destination="6sv-LN-8Qj" kind="show" identifier="ItemDetailsVC" id="KC0-n2-X7a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -308,6 +308,6 @@
         <image name="tesla" width="800" height="489"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KC0-n2-X7a"/>
+        <segue reference="DHj-3Z-Tmj"/>
     </inferredMetricsTieBreakers>
 </document>
