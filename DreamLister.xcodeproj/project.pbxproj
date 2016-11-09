@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BA2C3F1DD2037C0092A1B1 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA2C3E1DD2037C0092A1B1 /* ItemDetailsVC.swift */; };
 		01C9C6BA1DCCA4160013A593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9C6B91DCCA4160013A593 /* AppDelegate.swift */; };
 		01C9C6BC1DCCA4160013A593 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9C6BB1DCCA4160013A593 /* MainVC.swift */; };
 		01C9C6BF1DCCA4160013A593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C9C6BD1DCCA4160013A593 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01BA2C3E1DD2037C0092A1B1 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		01C9C6B61DCCA4160013A593 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C9C6B91DCCA4160013A593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01C9C6BB1DCCA4160013A593 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -57,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01BA2C3D1DD2033B0092A1B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01C9C6BB1DCCA4160013A593 /* MainVC.swift */,
+				01BA2C3E1DD2037C0092A1B1 /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		01C9C6AD1DCCA4150013A593 = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +90,7 @@
 				01C9C6F01DCCC0CC0013A593 /* View */,
 				01C9C6DE1DCCA8630013A593 /* Model */,
 				01C9C6B91DCCA4160013A593 /* AppDelegate.swift */,
-				01C9C6BB1DCCA4160013A593 /* MainVC.swift */,
+				01BA2C3D1DD2033B0092A1B1 /* Controller */,
 				01C9C6BD1DCCA4160013A593 /* Main.storyboard */,
 				01C9C6C31DCCA4160013A593 /* Assets.xcassets */,
 				01C9C6C51DCCA4160013A593 /* LaunchScreen.storyboard */,
@@ -202,6 +213,7 @@
 				01C9C6BC1DCCA4160013A593 /* MainVC.swift in Sources */,
 				01C9C6EC1DCCB5EC0013A593 /* ItemType+CoreDataClass.swift in Sources */,
 				01C9C6E81DCCB5EC0013A593 /* Store+CoreDataClass.swift in Sources */,
+				01BA2C3F1DD2037C0092A1B1 /* ItemDetailsVC.swift in Sources */,
 				01C9C6F21DCCC1030013A593 /* Materialview.swift in Sources */,
 				01C9C6BA1DCCA4160013A593 /* AppDelegate.swift in Sources */,
 				01C9C6C21DCCA4160013A593 /* DreamLister.xcdatamodeld in Sources */,
@@ -370,6 +382,7 @@
 				01C9C6CD1DCCA4160013A593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
