@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01131FE71DD49D220081D1A4 /* iphone7plusjetblack.png.51613e6af2.999x340x340.png in Resources */ = {isa = PBXBuildFile; fileRef = 01131FE61DD49D220081D1A4 /* iphone7plusjetblack.png.51613e6af2.999x340x340.png */; };
 		01B306131DD35A3F00365793 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B306121DD35A3F00365793 /* CustomTextField.swift */; };
 		01BA2C3F1DD2037C0092A1B1 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA2C3E1DD2037C0092A1B1 /* ItemDetailsVC.swift */; };
 		01C9C6BA1DCCA4160013A593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9C6B91DCCA4160013A593 /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01131FE61DD49D220081D1A4 /* iphone7plusjetblack.png.51613e6af2.999x340x340.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone7plusjetblack.png.51613e6af2.999x340x340.png; sourceTree = "<group>"; };
 		01B306121DD35A3F00365793 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		01BA2C3E1DD2037C0092A1B1 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		01C9C6B61DCCA4160013A593 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 				01C9C6BD1DCCA4160013A593 /* Main.storyboard */,
 				01C9C6C31DCCA4160013A593 /* Assets.xcassets */,
 				01C9C6C51DCCA4160013A593 /* LaunchScreen.storyboard */,
+				01131FE61DD49D220081D1A4 /* iphone7plusjetblack.png.51613e6af2.999x340x340.png */,
 				01C9C6C81DCCA4160013A593 /* Info.plist */,
 				01C9C6C01DCCA4160013A593 /* DreamLister.xcdatamodeld */,
 			);
@@ -198,6 +201,7 @@
 				01C9C6C71DCCA4160013A593 /* LaunchScreen.storyboard in Resources */,
 				01C9C6C41DCCA4160013A593 /* Assets.xcassets in Resources */,
 				01C9C6BF1DCCA4160013A593 /* Main.storyboard in Resources */,
+				01131FE71DD49D220081D1A4 /* iphone7plusjetblack.png.51613e6af2.999x340x340.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

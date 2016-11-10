@@ -42,13 +42,21 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
 //        let store2 = Store(context: context)
 //        store2.name = "Tesla Dealership"
 //        let store3 = Store(context: context)
-//        store3.name = "frys Electronics"
+//        store3.name = "Frys Electronics"
 //        let store4 = Store(context: context)
 //        store4.name = "Amazon"
 //        let store5 = Store(context: context)
 //        store5.name = "Ebay"
 //        let store6 = Store(context: context)
 //        store6.name = "K Mart"
+//        let store67 = Store(context: context)
+//        store67.name = "6pm"
+//        let store8 = Store(context: context)
+//        store8.name = "Aliexpress"
+//        let store9 = Store(context: context)
+//        store9.name = "Overstock"
+//        let store64 = Store(context: context)
+//        store64.name = "Rakuten"
 //        
 //        ad.saveContext()
         getStores()
