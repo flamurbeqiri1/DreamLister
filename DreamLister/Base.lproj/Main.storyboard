@@ -34,6 +34,9 @@
                                     <segment title="Title"/>
                                 </segments>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="segmentChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="ERk-Sh-k9M"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="157" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lim-50-MBN">
                                 <rect key="frame" x="20" y="132" width="374" height="604"/>
@@ -176,6 +179,9 @@
                                     <constraint firstAttribute="width" constant="100" id="N8w-62-3bL"/>
                                     <constraint firstAttribute="height" constant="100" id="RaY-Jl-L7i"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="addImage:" destination="6sv-LN-8Qj" eventType="touchUpInside" id="hHR-bu-Z7N"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f4Q-YJ-mWe" customClass="CustomTextField" customModule="DreamLister" customModuleProvider="target">
                                 <rect key="frame" x="128" y="82" width="266" height="40"/>
@@ -267,12 +273,16 @@
                     <navigationItem key="navigationItem" title="Add/Edit" id="GFH-QM-9dm">
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="JR6-b1-WBw">
                             <color key="tintColor" red="0.81196149129999995" green="0.08716167759" blue="0.070888007269999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="deletePressed:" destination="6sv-LN-8Qj" id="Grh-vi-B2m"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="PriceField" destination="JgB-wW-WBV" id="Zp5-lV-bj1"/>
                         <outlet property="detailsField" destination="5Rh-ob-mii" id="Ixg-i8-iPL"/>
                         <outlet property="storePicker" destination="oHj-1C-2bu" id="lha-re-6p1"/>
+                        <outlet property="thumbImage" destination="zv9-3f-eiY" id="XMX-sf-gJW"/>
                         <outlet property="titleField" destination="f4Q-YJ-mWe" id="c1S-PS-hEu"/>
                     </connections>
                 </viewController>
@@ -285,7 +295,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j79-9r-syf" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="4Yx-Mn-cj0">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Yx-Mn-cj0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
