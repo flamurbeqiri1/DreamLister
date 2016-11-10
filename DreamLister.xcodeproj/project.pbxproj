@@ -97,8 +97,8 @@
 				01BA2C3D1DD2033B0092A1B1 /* Controller */,
 				01C9C6BD1DCCA4160013A593 /* Main.storyboard */,
 				01C9C6C31DCCA4160013A593 /* Assets.xcassets */,
-				01C9C6C51DCCA4160013A593 /* LaunchScreen.storyboard */,
 				01131FE61DD49D220081D1A4 /* iphone7plusjetblack.png.51613e6af2.999x340x340.png */,
+				01C9C6C51DCCA4160013A593 /* LaunchScreen.storyboard */,
 				01C9C6C81DCCA4160013A593 /* Info.plist */,
 				01C9C6C01DCCA4160013A593 /* DreamLister.xcdatamodeld */,
 			);
